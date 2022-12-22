@@ -49,7 +49,7 @@ main{
 
 .cell {
     position: relative;
-    border: 1px solid var(--dark);
+    border: 2px solid var(--dark);
     width: 100px;
     padding-top: 100%;
     cursor: pointer;
@@ -97,7 +97,7 @@ main{
     height: 90px;
     background-color: var(--dark);
     border: 99px;
-}
+} /* caso a celula nao esteja preenchida por x nem o */
 
 .cell.x::before,
 .board.turn-x .cell:not(.x):not(.o):hover::before{
